@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>444</width>
+    <height>593</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>361</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>FORM PENGIRIMAN</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>110</y>
+     <width>261</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="noResiLabel">
+      <property name="text">
+       <string>No Resi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="noResiLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="kodeBarangLabel">
+      <property name="text">
+       <string>Kode Barang</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="kodeBarangLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tanggalPengirimanLabel">
+      <property name="text">
+       <string>Tanggal Pengiriman</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="tanggalPengirimanLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="totalBiayaLabel">
+      <property name="text">
+       <string>Total Biaya</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="totalBiayaLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="idPegawaiLabel">
+      <property name="text">
+       <string>Id Pegawai</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="idPegawaiLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="idPelangganLabel">
+      <property name="text">
+       <string>Id Pelanggan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="idPelangganLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="tanggalDiterimaLabel">
+      <property name="text">
+       <string>Tanggal Diterima</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="tanggalDiterimaLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="namaPenerimaLabel">
+      <property name="text">
+       <string>Nama Penerima</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="namaPenerimaLineEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="alamatPenerimaLabel">
+      <property name="text">
+       <string>Alamat Penerima</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="alamatPenerimaLineEdit"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="noHPPenerimaLabel">
+      <property name="text">
+       <string>No HP Penerima</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="noHPPenerimaLineEdit"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="idTarifLabel">
+      <property name="text">
+       <string>Id Tarif</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="idTarifLineEdit"/>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="biayaPackingLabel">
+      <property name="text">
+       <string>Biaya Packing</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLineEdit" name="biayaPackingLineEdit"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="asuransiLabel">
+      <property name="text">
+       <string>Asuransi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="asuransiLineEdit"/>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="beratLabel">
+      <property name="text">
+       <string>Berat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QLineEdit" name="beratLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>500</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>500</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>500</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
